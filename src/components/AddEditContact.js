@@ -231,7 +231,6 @@ const FormRow = ({ size, label, index, type, value, pattern, max, setValue, inva
 			)}
 			{type === 'textarea' && (
 				<textarea
-					type={type}
 					className='form-control'
 					id={'validationCustom0' + index}
 					placeholder={'Enter ' + label}
